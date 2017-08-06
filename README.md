@@ -22,7 +22,7 @@ sayp.speak("Some text to speech").then(() => console.log("ready"));
 sayp.speak(text, voice, speed).then(() => ...);
 
 // Chained says
-sayp.speak("text").then(() => sayp.speak("text two""));
+sayp.speak("text").then(() => sayp.speak("text two"));
 
 ```
 
